@@ -1,5 +1,5 @@
 #include "main.h"
-int actual_sqrt_recursion(int n, int i);
+int recursion(int n, int b);
 /**
  * _sqrt_recursion - returns the natura root square.
  * @n: number to calculate .
@@ -11,24 +11,24 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return (actual_sqrt_recursion(n, 0));
+	return (recursion(n, 0));
 }
 /**
- * actual_sqrt_recursion - it is the recurse to find natural .
+ * recursion - it is the recurse to find natural .
  * square: root of a number .
  * @n: number to calculate
- * @i: it's iterator.
+ * @b: it's iterator.
  * Return: return the resulting of square.
  */
-int actual_sqrt_recursion(int n, int i)
+int recursion(int n, int b)
 {
-	if (i * i > n)
+	if (b * b > n)
 	{
 		return (-1);
 	}
-	if (i * i == n)
+	if (b * b == n)
 	{
-		return (i);
+		return (b);
 	}
-	return (actual_sqrt_recursion(n, i + 1));
+	return (recursion(n, b + 1));
 }

@@ -1,7 +1,6 @@
 #include "main.h"
-
-int check_pal(char *s, int i, int len);
-int _strlen_recursion(char *s);
+int check(char *s, int i, int len);
+int strlen_recur(char *s);
 
 /**
  * is_palindrome - just checks the string.
@@ -14,29 +13,29 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	return (check_pal(s, 0, _strlen_recursion(s)));
+	return (check(s, 0, strlen_recur(s)));
 }
 /**
- * _strlen_recursion - just returns the length of the string .
+ * strlen_recur - just returns the length of the string .
  * @s: just a string to calculate it .
  * Return: return the length of the string .
  */
-int _strlen_recursion(char *s)
+int strlen_recur(char *s)
 {
 	if (*s == '\0')
 	{
 		return (0);
 	}
-	return (1 + _strlen_recursion(s + 1));
+	return (1 + strlen_recur(s + 1));
 }
 /**
- * check_pal - just to checks the characters recursively for the palindrome .
+ * check - just to checks the characters recursively for the palindrome .
  * @s: a string to check the script .
  * @i: it's a iterator .
  * @len: to output the length of a string .
  * Return: 1 if it's a palindrome and 0 if it's  not
  */
-int check_pal(char *s, int i, int len)
+int check(char *s, int i, int len)
 {
 	if (*(s + i) != *(s + len - 1))
 	{
@@ -46,5 +45,5 @@ int check_pal(char *s, int i, int len)
 	{
 		return (1);
 	}
-	return (check_pal(s, i + 1, len - 1));
+	return (check(s, i + 1, len - 1));
 }
