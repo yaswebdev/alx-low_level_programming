@@ -4,7 +4,7 @@ int actual_sqrt_recursion(int n, int i);
 
 /**
  * _sqrt_recursion - return
- * @n: number 
+ * @n: number
  * Return: the re
  */
 int _sqrt_recursion(int n)

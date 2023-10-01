@@ -3,7 +3,7 @@
 int prime(int n, int i);
 
 /**
- * is_prime_nu
+ * is_prime_number - function
  * @n: number to
  * Return: 1 if n is a prime number, 0 if not
  */
