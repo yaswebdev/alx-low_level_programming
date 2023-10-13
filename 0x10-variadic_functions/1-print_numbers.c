@@ -3,9 +3,10 @@
 
 /**
  * print_numbers - function to print numbers .
+ * @new line .
  * @n: integers to print .
- * @spr: seperator .
- * Return: spr .
+ * @separator: string to be printrd between numbers .
+ * Return: nothing .
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
