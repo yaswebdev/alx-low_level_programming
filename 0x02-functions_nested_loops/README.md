@@ -1,1 +1,1 @@
-this is my readme file 
+this is readme file for function in c 
