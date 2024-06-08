@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - the enter point of execution program 
+ * main - the enter point of execution program
  * Return: always 0 (successfully)
  */
 
