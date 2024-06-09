@@ -1,1 +1,1 @@
-this is readme file for function in c 
+this readme file for functions directory .

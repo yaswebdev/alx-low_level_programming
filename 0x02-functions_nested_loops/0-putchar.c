@@ -1,8 +1,21 @@
-#include "stdio.h"
-#include "main.h"
+#include <stdio.h>
+#include <unistd.h>
 
-void main(){
+/**
+ * main - start point of execution program
+ * Return: Always 0 (Successfull)
+ */
 
-	return _putchar("_putchar")
 
+int main(void)
+{
+int i;
+char str[] = "_putchar";
+
+for (i = 0; str[i] != '\0'; i++)
+{
+putchar(str[i]);
+}
+putchar('\n');
+return (0);
 }
