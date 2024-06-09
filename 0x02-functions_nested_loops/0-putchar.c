@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
  * main - start point of execution program
@@ -9,8 +10,8 @@
 
 int main(void)
 {
-int i;
 char str[] = "_putchar";
+int i;
 
 for (i = 0; str[i] != '\0'; i++)
 {
