@@ -1,14 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - Entry
- * Return: Always 0 (success)
+ * main - start point of execution program
+ * Return: always 0 (successfull)
  */
+
 int main(void)
 {
 int i;
-
-for (i = 0 ; i < 10 ; i++)
+for (i = 0; i < 10; i++)
+{
 printf("%d", i);
+}
 printf("\n");
 return (0);
 }
