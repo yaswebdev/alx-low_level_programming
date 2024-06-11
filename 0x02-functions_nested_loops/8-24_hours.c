@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * jack_bauber - function prototype hat return time
- * @minutes: return minutes of an hour
- * $hours: return hours of the day
+ * jack_bauer - function prototype hat return time
+ * minutes: return minutes of an hour
+ * hours: return hours of the day
  */
 
 void jack_bauer(void)
