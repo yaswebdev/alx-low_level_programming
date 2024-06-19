@@ -9,5 +9,4 @@ int _isupper(int c) {
         printf("%c : 0\n", c);
         return 0;
     }
-    return -1;
 }
