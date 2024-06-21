@@ -1,1 +1,1 @@
-this directory for pointers and arrays
+this is readme file for pointers directory
