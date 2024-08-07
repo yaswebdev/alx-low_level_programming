@@ -1,19 +1,19 @@
+#include <unistd.h>
 #include <stdio.h>
 #include "main.h"
 
-/**
- * _puts_recursion - it's a function to output what into inside .
- * @s :  a string to output it .
- * Return: Always 0 (success)
- */
-void _puts_recursion(char *s)
-{
 
-if (*s == '\0')
-{
-_putchar('\n');
-return;
-}
-_putchar(*s);
-_puts_recursion(s + 1);
+void _puts_recursion(char *s){
+
+
+	int i = 0;
+
+	while(s[i]){
+
+		_putchar(s[i]);
+		i++;
+	
+	}
+	_putchar('\n');
+
 }
